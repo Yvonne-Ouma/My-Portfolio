@@ -7,4 +7,4 @@ On the github account click on the repositories.
 Click on my Portfolio.
 Copy the link on the Clone or Download.
 From their you can view my projects.
-the following is a link you can use to locate my portfolio. 
+the following is a link you can use to locate my portfolio. https://yvonne-ouma.github.io/My-Portfolio/
