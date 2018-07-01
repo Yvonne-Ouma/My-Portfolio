@@ -1,10 +1,10 @@
 body {
-  background-color:grey;
+  background-color:green;
   text-align: left;
-  font-size: 40px;
+  font-size: 30px;
 }
 h1 {
-  color:purple;
+  color:blue;
 }
 .about {
   background-color: yellow;
