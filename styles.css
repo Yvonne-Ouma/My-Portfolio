@@ -1,14 +1,13 @@
 body {
-  background-color:green;
+  background-image: url(images/loud1.jpg);
   text-align: left;
-  font-size: 30px;
+  font-size: 20px;
 }
 h1 {
   color:blue;
   text-decoration: underline;
 }
 .about {
-  background-color: yellow;
   font-family:'monaco';
   font-style: italic;
 }
