@@ -1,7 +1,10 @@
 body {
-  background-image: url(images/loud1.jpg);
+  background-image: url(images/gauge_001.gif);
   text-align: left;
   font-size: 20px;
+  color: #E0E0E0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
   color:blue;
@@ -15,6 +18,15 @@ h1 {
   font-weight: bold;
 }
 img{
-  width:300px;
+  width:400px;
   height:300px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.about-me {
+  text-align: left;
 }
