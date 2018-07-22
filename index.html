@@ -1,48 +1,88 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="shortcut icon" href="images/image.jpg">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <meta charset="utf-8">
     <title>Portfolio Landing Page</title>
 </head>
 <body>
-  <div id="container">
+  <div class="container-fluid">
     <div class="mypotfolio">
-    <h1>Yvonne Ouma</h1>
-    <img src="images/image.jpg" class="center">
+  
+    </div>
+    <div class="about-me">
+      <img src="images/image.jpg" class="center">
+      <h2>About Me!</h2>
+      <h3>My Education</h3>
+      <p>I went through Pre-primary and Primary at Olympic Educational Center. Then later joinied High School at Moi Girls School-Sindo.Currently studing at <a href="https://moringaschool.com/">moringa school</a>.I joined Moringa not only to continue my education but it was all about passion to become a programmer in future.To be a programer is takes alot to know what code is and so i first came here to know coding.</p>
+    </div>
     <div class="project">
-      <h1>My Portfolio project</h1>
-      <ul>
-        <li>Cookie Recipe</li>
-         <p>This project talks about  <em>cookies</em> and how it is prepared together with the ingredients.I used the html language. For more information <a href="https://github.com/Yvonne-Ouma/Cookie-Recipe">lick here</a></p>
-        <li>My First Webpage<li>
-         <p>This project talks about <em>content at moringa school</em> specifically in the prep program.I used the html language. For more information <a href="https://github.com/Cynthia-Okello/my-first-webpage">Click here</a></p>
-      </ul>
+      <div class="mine">
+        <h1>My Portfolio project</h1>
+        <p>Apart from my portfolio there are some of the projects that i have done.</p>
+        <p>Here are some of the projects i have done</p>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width:400px">
+            <h3>Anita's Kitchen</h3>
+            <img class="card-img-top" src="images/kit.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Anita's Kitchen</h4>
+              <p class="card-text">This is project displays anita's kitchen.</p>
+              <a href="https://github.com/Yvonne-Ouma/kitchen-anita" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width:400px">
+            <h3>Ping-Pong</h3>
+            <img class="card-img-top" src="images/ping pong.GIF" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Ping Pong</h4>
+              <p class="card-text">This project is a game that display 'ping' if a number is divisible by 3. 'pong'if a number is divisible by 5 and 'ping pong' if divisible by both 3 and 5.</p>
+              <a href="https://github.com/Yvonne-Ouma/ping-pong" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-4"> -->
+          <div class="col-md-4">
+            <div class="card" style="width:400px">
+              <h3>Anita's Kitchen</h3>
+              <img class="card-img-top" src="images/catering.jpg" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Catering Company</h4>
+                <p class="card-text">This is a project that displays a catering company where diferent dishes are offered together with their specific prices.</p>
+                <a href="https://github.com/Yvonne-Ouma/yvonne-catering-company" class="btn btn-primary">View Project</a>
+              </div>
+            </div>
+          </div>
+        <!-- </div> -->
+      </div>
     </div>
-
+    <div id="Interests">
+      <div class="who">
+        <h2>Interests</h2>
+        <ol>
+          <li>learning more on <strong>html and css</strong></li>
+          <li>Having a experience in <strong>terminal</strong></li>
+          <li>Be able to create <strong>my own website</strong></li>
+        </ol>
+        <h2>Skills</h2>
+        <ol>
+          <li>Coding</li>
+          <li>Typing</li>
+        </ol>
+        <h2>Hobbies</h2>
+        <ol>
+          <li>Reading blogs</li>
+          <li>Watching movies</li>
+          <li>Reading articles</li>
+        </ol>
+      </div>
+    </div>
   </div>
-  <div class="about-me">
-  <h2>About Me!</h2>
-    <h3>My Education</h3>
-      <p>I went through Pre-primary and Primary at Olympic Educational Center. Then later joinied High School at Moi Girls School-Sindo.Currently studing at <a href="https://moringaschool.com/">moringa school</a>.I joined Moringa not only to continue my education but it was all about passion of wanting to become a programmer in future.</p>
-  <h2>Interests</h2>
-    <ol>
-      <li>learning more on <strong>html and css</strong></li>
-      <li>Having a experience in <strong>terminal</strong></li>
-      <li>Be able to create <strong>my own website</strong></li>
-    </ol>
-  <h2>Skills</h2>
-    <ol>
-      <li>Coding</li>
-      <li>Typing</li>
-    </ol>
-  <h2>Hobbies</h2>
-  <ol>
-    <li>Reading blogs</li>
-    <li>Watching movies</li>
-    <li>Reading articles</li>
-  </ol>
-    </div>
-   </div>
-  </body>
+</body>
 </html>

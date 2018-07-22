@@ -1,32 +1,36 @@
-body {
-  background-image: url(../images/gauge_001.gif);
-  text-align: left;
-  font-size: 20px;
-  color: #E0E0E0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-h1 {
-  color:blue;
-  text-decoration: underline;
-}
-.about {
-  font-family:'monaco';
-  font-style: italic;
-}
-.mypotfolio {
-  font-weight: bold;
-}
-img{
-  width:400px;
-  height:300px;
-}
-.center {
-    display: block;
+
+.center{
+  display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
 }
-.about-me {
-  text-align: left;
+.about-me{
+  background-image: url("../images/87.jpg");
+  padding-bottom:300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 40px;
+  font-size:40px;
+  color: white;
+}
+.project{
+  background-image: url("../images/wallpaper.jpg");
+}
+.mine{
+  text-align: center;
+}
+.who{
+  background-image: url("../images/es.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.navs{
+  font-size: 50px;
+}
+#Interests{
+  font-size: 30px;
+  color: white;
 }
