@@ -1,22 +1,66 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="shortcut icon" href="images/image.jpg">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <meta charset="utf-8">
-    <title>Portfolio Landing Page</title>
+
+<head>
+  <link rel="shortcut icon" href="images/image.jpg">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+  <meta charset="utf-8">
+  <title>Portfolio Landing Page</title>
 </head>
+
 <body>
+  <div style="width: 100%; height: 600px; background-image: url('./images/ter.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment:fixed;" 
+    class="container-fluid">
+    <div class="row">
+      <div class="col-md-">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style = "position: fixed; z-index: 1; top: 0; width: 100%;">
+        <a class="navbar-brand" href="#"><img src="./images/portfolio.png" alt="" width = 100px height = 30px></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">About Me</a>
+            <a class="nav-item nav-link" href="#">Projects</a>
+            <a class="nav-item nav-link disabled" href="#">Contact</a>
+          </div>
+        </div>
+      </nav>
+      </div>
+      <div class="col-md-10">
+      <h1 style="text-align: center; color:azure; padding-top:200px;">Yvonne Ouma</h1>
+      <h2 style="text-align: center; color:azure; ">I am a fullstack developer </h2>
+      </div>
+    </div>
+  </div>
+
   <div class="container-fluid">
     <div class="mypotfolio">
-  
+
     </div>
-    <div class="about-me">
-      <img src="images/image.jpg" class="center">
-      <h2>About Me!</h2>
-      <h3>My Education</h3>
-      <p>I went through Pre-primary and Primary at Olympic Educational Center. Then later joinied High School at Moi Girls School-Sindo.Currently studing at <a href="https://moringaschool.com/">moringa school</a>.I joined Moringa not only to continue my education but it was all about passion to become a programmer in future.To be a programer is takes alot to know what code is and so i first came here to know coding.</p>
+    <div id="about-me">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/me.jpg" class="center">
+
+        </div>
+
+        <div class="col-md-6">
+          <h2>About Me!</h2>
+          <h3>My Education</h3>
+          <p>I am Yvonne Awuor Ouma currently a student at <a href="https://moringaschool.com/">moringa school</a> as a
+            fullstack developer. Before I came to moringa i went through secondary education at Moi Girls High
+            School-Sindo. Why Moringa?? Well Technoloogy is one thing that changes so fast, each and every day people
+            develop new technical machines to solve a problem somewhere. To me this is the spirit that drives me into
+            the world of technogy. </p>
+        </div>
+      </div>
+
+
     </div>
     <div class="project">
       <div class="mine">
@@ -32,7 +76,7 @@
             <div class="card-body">
               <h4 class="card-title">Anita's Kitchen</h4>
               <p class="card-text">This is project displays anita's kitchen.</p>
-              <a href="https://github.com/Yvonne-Ouma/kitchen-anita" class="btn btn-primary">View Project</a>
+              <a href="https://yvonne-ouma.github.io/kitchen-anita/" class="btn btn-primary">View Project</a>
             </div>
           </div>
         </div>
@@ -42,23 +86,25 @@
             <img class="card-img-top" src="images/ping pong.GIF" alt="Card image">
             <div class="card-body">
               <h4 class="card-title">Ping Pong</h4>
-              <p class="card-text">This project is a game that display 'ping' if a number is divisible by 3. 'pong'if a number is divisible by 5 and 'ping pong' if divisible by both 3 and 5.</p>
+              <p class="card-text">This project is a game that display 'ping' if a number is divisible by 3. 'pong'if a
+                number is divisible by 5 and 'ping pong' if divisible by both 3 and 5.</p>
               <a href="https://github.com/Yvonne-Ouma/ping-pong" class="btn btn-primary">View Project</a>
             </div>
           </div>
         </div>
         <!-- <div class="col-md-4"> -->
-          <div class="col-md-4">
-            <div class="card" style="width:400px">
-              <h3>Anita's Kitchen</h3>
-              <img class="card-img-top" src="images/catering.jpg" alt="Card image">
-              <div class="card-body">
-                <h4 class="card-title">Catering Company</h4>
-                <p class="card-text">This is a project that displays a catering company where diferent dishes are offered together with their specific prices.</p>
-                <a href="https://github.com/Yvonne-Ouma/yvonne-catering-company" class="btn btn-primary">View Project</a>
-              </div>
+        <div class="col-md-4">
+          <div class="card" style="width:400px">
+            <h3>Anita's Kitchen</h3>
+            <img class="card-img-top" src="images/catering.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Catering Company</h4>
+              <p class="card-text">This is a project that displays a catering company where diferent dishes are offered
+                together with their specific prices.</p>
+              <a href="https://github.com/Yvonne-Ouma/yvonne-catering-company" class="btn btn-primary">View Project</a>
             </div>
           </div>
+        </div>
         <!-- </div> -->
       </div>
     </div>
@@ -84,5 +130,19 @@
       </div>
     </div>
   </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.display = "block";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.display = "none";
+    }
+  </script>
+  <!--Jquery cdn links-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
 </body>
+
 </html>

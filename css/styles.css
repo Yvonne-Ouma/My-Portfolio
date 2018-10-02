@@ -1,36 +1,89 @@
-
-.center{
+.center {
   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
 }
-.about-me{
-  background-image: url("../images/87.jpg");
-  padding-bottom:300px;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+.hidden {
+  opacity: 0;
+}
+
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+#about-me {
+  padding: 50px;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
   text-align: center;
   padding-top: 40px;
-  font-size:40px;
-  color: white;
+  font-size: 20px;
+  box-shadow: 8px 8px 8px 5px grey;
+  /* color: white; */
 }
-.project{
-  background-image: url("../images/wallpaper.jpg");
+
+.project {
+  /* background-image: url("../images/wallpaper.jpg"); */
 }
-.mine{
+
+.mine {
   text-align: center;
 }
-.who{
-  background-image: url("../images/es.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.who {
+  /* background-image: url("../images/es.jpeg"); */
+  /* background-repeat: no-repeat;
+  background-size: cover; */
 
 }
-.navs{
+
+.navs {
   font-size: 50px;
 }
-#Interests{
+
+#Interests {
   font-size: 30px;
   color: white;
 }
