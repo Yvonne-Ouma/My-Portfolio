@@ -64,12 +64,13 @@
   /* color: white; */
 }
 
-.project {
-  /* background-image: url("../images/wallpaper.jpg"); */
+#project {
+  padding-top:30px;
 }
 
 .mine {
   text-align: center;
+
 }
 
 .who {
