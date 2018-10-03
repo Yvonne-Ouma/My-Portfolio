@@ -61,11 +61,14 @@
   padding-top: 40px;
   font-size: 20px;
   box-shadow: 8px 8px 8px 5px grey;
+  font-family: 'Quicksand',
+  sans-serif;
   /* color: white; */
 }
 
 #project {
   padding-top:30px;
+  
 }
 
 .mine {
