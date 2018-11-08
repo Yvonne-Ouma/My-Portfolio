@@ -7,7 +7,7 @@
   width:60%;
 }
 .about-me{
-  padding-bottom:300px;
+  padding-bottom:400px;
   text-align: center;
   padding-top: 40px;
   font-size:40px;
@@ -36,7 +36,7 @@ li {
 }
 
 nav>ul>li>a {
-  padding: 8px;
+  padding: 2px;
   margin-right: 0;
   text-transform: uppercase;
   text-decoration: none;
@@ -81,11 +81,11 @@ nav>ul>li>a:hover {
 }
 
 /* contact styling */
-
 body {
   margin: 0;
   padding: 0;
-}
+  
+  }
 
 #contact {
   width: 100%;
@@ -93,7 +93,7 @@ body {
   background-color: #111;
   overflow: hidden;
   padding-bottom: 200px;
-}
+} 
 
 .section-header {
   text-align: center;
