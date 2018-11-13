@@ -19,13 +19,13 @@
 }
 
 #project{
-  padding-top: 60px;
+  padding-top: 45px;
 }
 #section{
-  padding-top: 60px;
+  padding-top: 45px;
 }
 #kunipata{
-  padding-top: 60px;
+  padding-top: 45px;
 }
 ul {
   text-align: right;
@@ -37,7 +37,7 @@ li {
 
 nav>ul>li>a {
   padding: 2px;
-  margin-right: 0;
+  margin-right: 7px;
   text-transform: uppercase;
   text-decoration: none;
   display: block;
@@ -53,14 +53,13 @@ nav>ul>li>a:hover {
   background-color: rgba(39, 38, 38, 0.561);
   padding-bottom: 280px;
 }
+#about{
+  background-color: rgba(85, 85, 85, 0.726);
+  padding-bottom: 215px;
+  padding-top: 130px;
+}
 .navs{
   font-size: 50px;
-}
-
-#about-me{
-  margin: 0;
-  background: white;
-  padding: 5em 7em 7em 7em;
 }
 
 #section {
