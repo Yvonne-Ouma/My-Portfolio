@@ -19,4 +19,4 @@ This application does not work in Internet explorer.
 ## Technologies Used
 In my application i used HTML language where i brought out the structure of the application.I also used CSS where i was able to make my application look more pleasant.It is easy to work on HTML and CSS, a'll highly recommend you to learn more on using this languages.
 ## Support and contact details
-If any complication comes up when running this application please contact me on my gmail account yvonneouma98@gmail.com or 0706244461.
+If any complication comes up when running this application please contact me on my gmail account yvonneouma98@gmail.com.
