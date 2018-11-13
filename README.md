@@ -3,11 +3,7 @@ My Portfolio
 # Author
 Yvonne Ouma
 ## Description
-<<<<<<< HEAD
-My portfolio is the name of my project. This project is mainly meant to talk about all the projects that i have done. Apart from projects it will also entail more information about me.
-=======
 My portfolio is the name of my project.This project is mainly meant to talk about all the projects the i will be making. Apart from projects it will also entail more information about me.
->>>>>>> 44796c4dae7ee389e031dcbc1fd37870da363801
 ## Prerequisites
 * web browser
 * git
