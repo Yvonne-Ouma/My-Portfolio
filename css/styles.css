@@ -1,32 +1,35 @@
-
-.center{
+img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%;
-  width:60%;
-}
-.about-me{
-  padding-bottom:400px;
-  text-align: center;
-  padding-top: 40px;
-  font-size:40px;
- 
+  width: 60%;
+  transform: rotate(-90deg);
 }
 
-.mine{
+.about-me {
+  padding-bottom: 400px;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 40px;
+
+}
+
+.mine {
   text-align: center;
 }
 
-#project{
+#project {
   padding-top: 45px;
 }
-#section{
+
+#section {
   padding-top: 45px;
 }
-#kunipata{
+
+#kunipata {
   padding-top: 45px;
 }
+
 ul {
   text-align: right;
 }
@@ -49,16 +52,19 @@ nav>ul>li>a:hover {
   color: rgba(183, 193, 216, 0.7);
 }
 
-#darker{
+#darker {
   background-color: rgba(39, 38, 38, 0.561);
   padding-bottom: 280px;
 }
-#about{
+
+#about {
   background-color: rgba(85, 85, 85, 0.726);
-  padding-bottom: 185px;
+  padding-bottom: 200px;
   padding-top: 130px;
+  height: 100%;
 }
-.navs{
+
+.navs {
   font-size: 50px;
 }
 
@@ -69,6 +75,7 @@ nav>ul>li>a:hover {
   margin-right: 3em;
   margin-left: 3em;
 }
+
 #cust {
   background-color: rgb(121, 112, 112);
   text-align: center;
@@ -83,8 +90,8 @@ nav>ul>li>a:hover {
 body {
   margin: 0;
   padding: 0;
-  
-  }
+
+}
 
 #contact {
   width: 100%;
@@ -92,7 +99,7 @@ body {
   background-color: #111;
   overflow: hidden;
   padding-bottom: 200px;
-} 
+}
 
 .section-header {
   text-align: center;
