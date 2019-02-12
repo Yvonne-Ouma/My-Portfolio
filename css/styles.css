@@ -13,7 +13,11 @@ img.center {
   font-size: 40px;
 
 }
-
+#ous{
+  text-align:center; 
+  padding-bottom: 100px;
+  padding-left:40px;
+}
 .mine {
   text-align: center;
 }
@@ -48,17 +52,17 @@ nav>ul>li>a {
 }
 
 nav>ul>li>a:hover {
-  background-color: rgba(88, 90, 206, 0.678);
+  background-color: rgba(146, 147, 214, 0.678);
   color: rgba(183, 193, 216, 0.7);
 }
 
 #darker {
   background-color: rgba(39, 38, 38, 0.561);
-  padding-bottom: 280px;
+  padding-bottom: 350px;
 }
 
 #about {
-  background-color: rgba(85, 85, 85, 0.726);
+  background-color: rgba(22, 22, 22, 0.726);
   padding-bottom: 200px;
   padding-top: 130px;
   height: 100%;
@@ -77,10 +81,7 @@ nav>ul>li>a:hover {
 }
 
 #cust {
-  background-color: rgb(121, 112, 112);
-  text-align: center;
   padding: 50px;
-  box-shadow: 0 0 7px 7px rgb(119, 114, 114);
   margin-top: 3em;
   margin-bottom: 3em;
 
