@@ -2,8 +2,9 @@ img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 65%;
   transform: rotate(-90deg);
+  border-radius: 20%;
 }
 
 .about-me {
